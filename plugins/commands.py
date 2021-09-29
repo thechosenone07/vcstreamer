@@ -29,8 +29,8 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot')
+            InlineKeyboardButton('⚙️ ENQUIRIES ⚙️', url='https://t.me/J_A_R_V_l_S'),
+            InlineKeyboardButton('📶 WIKI ', url='http://telegra.ph/R-H-Y-T-H-M-09-13')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -45,8 +45,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot'),
+            InlineKeyboardButton('⚙️ ENQUIRIES ⚙️', url='https://t.me/J_A_R_V_l_S'),
+            InlineKeyboardButton('🧩 Source', url='https://t.me/orthod_irunna_sankadam_varum/2'),
         ]
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -60,8 +60,8 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Repository', url='https://github.com/subinps/VCPlayerBot'),
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
+            InlineKeyboardButton('🧩 Repository', url='https://github.com/thechosenone07/vcstreamer'),
+            InlineKeyboardButton('⚙️ ENQUIRIES ⚙️', url='https://t.me/J_A_R_V_l_S'),
             
         ],
     ]
